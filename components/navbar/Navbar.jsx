@@ -30,7 +30,7 @@ const Navbar = () => {
     {
       id: 4,
       title: "Contact",
-      url: "/",
+      url: "/contact",
     },
     {
       id: 5,
