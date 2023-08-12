@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,41 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}  */
+
+.theme{
+  transition: 1s all ease;
+}
+
+.light {
+  background-color: #FFF;
+  color: #111;
+}
+
+.dark {
+  background-color: #111;
+  color: #BBB;
+}
+
+.custom_top{
+  top: 85px;
+}
+.custom_height{
+  height: 500px;
+}
+.custom_width{
+  width: 300px !important;
+}
+
+.bg_img{
+  background-image: url('../public/Hero.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.t{
+  background-color: red;
+}
+.t2{
+  background-color: pink;
 }
