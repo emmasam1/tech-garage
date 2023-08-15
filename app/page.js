@@ -137,7 +137,7 @@ const page = () => {
       <div className="grid grid-rows-2 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-5">
         {categories.map((category) => {
           return (
-            <Card className="py-4" key={category.id}>
+            <Card className="py-4 cursor-pointer" key={category.id}>
               <div className="grid justify-items-stretch">
                 <div className="rounded-full justify-self-center bg-white w-20 h-20 flex justify-center items-center">
                   <AiFillHtml5 size={60} color="black" />
