@@ -34,7 +34,7 @@ const Navbar = () => {
     },
     {
       id: 5,
-      title: "Services",
+      title: "Services s",
       url: "/",
     },
   ];
