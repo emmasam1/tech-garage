@@ -10,9 +10,11 @@ import {
 const Footer = () => {
   return (
     <div className="container mx-auto px-4">
-      <div className="border-t-2 border-opacity-50 border-gray-100">
+      <div className="border-gray-100">
+      <div className="grid grid-rows-1 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-5">
         somthe here
-        <div className="grid grid-rows-1 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-5">
+        </div>
+        <div className="border-t-2 border-opacity-50 grid grid-rows-1 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-5">
           <div>
             <h1 className="text-lg font-bold">Stay connected</h1>
             <div className="flex gap-2 mt-1">
